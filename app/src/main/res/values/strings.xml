@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <string name="question_text">是中国人吗？</string>
+    <string name="question_China">是中国人吗？</string>
+    <string name="question_tea">喝茶吗？</string>
+    <string name="question_lunch">吃饭了吗？</string>
+    <string name="question_work">上班了吗？</string>
+    <string name="question_school">上学了吗？</string>
     <string name="true_button">true</string>
     <string name="false_button">false</string>
     <string name="next">next</string>
