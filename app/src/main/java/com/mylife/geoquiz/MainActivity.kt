@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         questionTextView = findViewById(R.id.question_text_view)
 
 
-
         trueButton.setOnClickListener {
 //            Toast.makeText(this,R.string.correct_toast,Toast.LENGTH_SHORT).show()
                 checkAnswer(true)
@@ -54,8 +53,11 @@ class MainActivity : AppCompatActivity() {
             nextOrPrev()
             updateQuestion()
         }
-
         updateQuestion()
+        questionTextView.setOnClickListener{
+            nextOrPrev()
+            updateQuestion()
+        }
 
     }
 
