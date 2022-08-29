@@ -3,4 +3,8 @@
     <string name="question_text">是中国人吗？</string>
     <string name="true_button">true</string>
     <string name="false_button">false</string>
+    <string name="next">next</string>
+    <string name="correct_toast">正确！</string>
+    <string name="incrrect_toast">错误！</string>
+    <string name="prev">prev</string>
 </resources>
